@@ -1,0 +1,48 @@
+body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.display{
+    text-align: right;
+    padding: 15px ;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 20px 25px 10px 25px;
+}
+
+.formula{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttons{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 3px 3px;
+}
+
+button:hover{
+    background-color: #f2a33c;
+}
